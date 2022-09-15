@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorBibleDB", "KorBibleDB\KorBibleDB.csproj", "{4556B0DC-6861-4EC7-96AC-54A29D4405C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4556B0DC-6861-4EC7-96AC-54A29D4405C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4556B0DC-6861-4EC7-96AC-54A29D4405C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4556B0DC-6861-4EC7-96AC-54A29D4405C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4556B0DC-6861-4EC7-96AC-54A29D4405C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55640A6C-FCEB-4F80-9C0C-B107A29663D2}
+	EndGlobalSection
+EndGlobal
