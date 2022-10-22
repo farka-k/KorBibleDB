@@ -1,7 +1,7 @@
 ﻿
 namespace KorBibleDB
 {
-    partial class Form1
+    partial class KorBibleDBTest
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -108,6 +108,11 @@ namespace KorBibleDB
             this.NumEndPassage.Name = "NumEndPassage";
             this.NumEndPassage.Size = new System.Drawing.Size(55, 21);
             this.NumEndPassage.TabIndex = 5;
+            this.NumEndPassage.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // NumEndChapter
             // 
@@ -115,6 +120,11 @@ namespace KorBibleDB
             this.NumEndChapter.Name = "NumEndChapter";
             this.NumEndChapter.Size = new System.Drawing.Size(55, 21);
             this.NumEndChapter.TabIndex = 4;
+            this.NumEndChapter.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.NumEndChapter.ValueChanged += new System.EventHandler(this.NumEndChapter_ValueChanged);
             // 
             // NumStartPassage
@@ -123,6 +133,11 @@ namespace KorBibleDB
             this.NumStartPassage.Name = "NumStartPassage";
             this.NumStartPassage.Size = new System.Drawing.Size(55, 21);
             this.NumStartPassage.TabIndex = 2;
+            this.NumStartPassage.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.NumStartPassage.ValueChanged += new System.EventHandler(this.NumStartPassage_ValueChanged);
             // 
             // NumStartChapter
@@ -131,6 +146,11 @@ namespace KorBibleDB
             this.NumStartChapter.Name = "NumStartChapter";
             this.NumStartChapter.Size = new System.Drawing.Size(55, 21);
             this.NumStartChapter.TabIndex = 1;
+            this.NumStartChapter.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.NumStartChapter.ValueChanged += new System.EventHandler(this.NumStartChapter_ValueChanged);
             // 
             // CmbStartBook
@@ -144,14 +164,14 @@ namespace KorBibleDB
             this.CmbStartBook.TabIndex = 0;
             this.CmbStartBook.SelectedIndexChanged += new System.EventHandler(this.CmbBook_SelectedIndexChanged);
             // 
-            // Form1
+            // KorBibleDBTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 220);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "KorBibleDBTest";
+            this.Text = "KorBibleDB Test";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.NumEndPassage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumEndChapter)).EndInit();
